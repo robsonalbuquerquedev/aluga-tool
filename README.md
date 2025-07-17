@@ -1,37 +1,73 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛠️ AlugaTool
 
-## Getting Started
+**Sua ferramenta, sua renda.**  
+Uma plataforma de aluguel de ferramentas entre pessoas, construída com **Next.js 14**, **Tailwind CSS**, **TypeScript**, **Firebase**, e **Framer Motion**.
 
-First, run the development server:
+[![Deploy Vercel](https://img.shields.io/badge/deploy-vercel-000?style=flat&logo=vercel)](https://vercel.com/)
+[![Feito por Robson Albuquerque](https://img.shields.io/badge/feito%20por-Robson%20Albuquerque-blueviolet)](https://github.com/robsonalbuquerquedev)
+[![Next.js](https://img.shields.io/badge/Next.js-14-blue?logo=next.js)](https://nextjs.org)
+[![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-2E8B57?logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+[![Firebase](https://img.shields.io/badge/Firebase-yellow?logo=firebase&logoColor=white)](https://firebase.google.com/)
+
+---
+
+## 🔍 Visão Geral
+
+O **AlugaTool** é um marketplace de aluguel de ferramentas onde:
+
+- Usuários podem **cadastrar ferramentas que possuem**.
+- Outros usuários podem **alugar essas ferramentas por um período**.
+- O dono da ferramenta gera renda, o locatário economiza.
+
+É uma solução pensada para eletricistas, pedreiros, hobbystas ou qualquer pessoa que só precisa de uma ferramenta pontualmente.
+
+---
+
+## 🖼️ Preview
+
+> Em breve: link do site hospedado (via Vercel)
+
+![Preview do site](./public/preview.png)
+
+---
+
+## 🚀 Tecnologias utilizadas
+
+- ⚛️ Next.js 14 (App Router)
+- 💅 Tailwind CSS
+- 🔐 Firebase Auth
+- 🔥 Firebase Realtime Database
+- 🎨 React Icons
+- 🧠 Framer Motion (animações)
+- 🌐 TypeScript
+
+---
+
+## 📦 Como rodar o projeto localmente
 
 ```bash
+# 1. Clone este repositório
+git clone https://github.com/robsonalbuquerquedev/aluga-tool.git
+
+# 2. Acesse a pasta do projeto
+cd aluga-tool
+
+# 3. Instale as dependências
+npm install
+
+# 4. Rode o servidor de desenvolvimento
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# O projeto estará disponível em http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🧑‍💻 Autor
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Feito com 💙 por Robson Albuquerque
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📄 Licença
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# aluga-tool
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
